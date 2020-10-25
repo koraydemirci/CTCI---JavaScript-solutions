@@ -12,7 +12,7 @@ time complexity: linear - O(n)
 space complexity: linear - O(n)
 */
 
-let isUnique = (str) => {
+const isUnique = (str) => {
   //check each character and store in a hash table
   //if we find that the character is already there, return false
   //when done checking, return true
